@@ -59,7 +59,7 @@
               "isDisabled": false,
               "key": "18o5x5eo7s",
               "isDeprecated": false,
-              "rightColumn": 34,
+              "rightColumn": 41,
               "isDefaultClickDisabled": true,
               "widgetId": "pxv45176c5",
               "minWidth": 120,
@@ -78,136 +78,61 @@
               "placement": "CENTER"
             },
             {
+              "resetFormOnClick": false,
               "boxShadow": "none",
-              "mobileBottomRow": 31,
-              "widgetName": "ButtonGroup1",
-              "isCanvas": false,
-              "displayName": "Button Group",
-              "iconSVG": "/static/media/icon.7c22979bacc83c8d84aedf56ea6c2022.svg",
+              "mobileBottomRow": 36,
+              "widgetName": "Button2",
+              "buttonColor": "{{\"#880808\"}}",
+              "dynamicPropertyPathList": [
+                {
+                  "key": "buttonColor"
+                }
+              ],
+              "displayName": "Button",
+              "iconSVG": "/static/media/icon.7beb9123fb53027d9d6b778cdfe4caed.svg",
               "searchTags": [
                 "click",
                 "submit"
               ],
-              "topRow": 27,
-              "bottomRow": 31,
+              "topRow": 29,
+              "bottomRow": 33,
               "parentRowSpace": 10,
-              "groupButtons": {
-                "groupButton1": {
-                  "label": "Favorite",
-                  "iconName": "heart",
-                  "id": "groupButton1",
-                  "widgetId": "",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 0,
-                  "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                },
-                "groupButton2": {
-                  "label": "Add",
-                  "iconName": "add",
-                  "id": "groupButton2",
-                  "buttonType": "SIMPLE",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 1,
-                  "menuItems": {},
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                },
-                "groupButton3": {
-                  "label": "More",
-                  "iconName": "more",
-                  "id": "groupButton3",
-                  "buttonType": "MENU",
-                  "placement": "CENTER",
-                  "widgetId": "",
-                  "isVisible": true,
-                  "isDisabled": false,
-                  "index": 2,
-                  "menuItems": {
-                    "menuItem1": {
-                      "label": "First Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem1",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 0
-                    },
-                    "menuItem2": {
-                      "label": "Second Option",
-                      "backgroundColor": "#FFFFFF",
-                      "id": "menuItem2",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 1
-                    },
-                    "menuItem3": {
-                      "label": "Delete",
-                      "iconName": "trash",
-                      "iconColor": "#FFFFFF",
-                      "iconAlign": "right",
-                      "textColor": "#FFFFFF",
-                      "backgroundColor": "#DD4B34",
-                      "id": "menuItem3",
-                      "widgetId": "",
-                      "onClick": "",
-                      "isVisible": true,
-                      "isDisabled": false,
-                      "index": 2
-                    }
-                  },
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                }
-              },
-              "type": "BUTTON_GROUP_WIDGET",
+              "type": "BUTTON_WIDGET",
               "hideCard": false,
-              "mobileRightColumn": 37,
+              "mobileRightColumn": 49,
               "animateLoading": true,
               "parentColumnSpace": 12.578125,
-              "leftColumn": 13,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 23,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
                 },
                 {
-                  "key": "groupButtons.groupButton1.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton2.buttonColor"
-                },
-                {
-                  "key": "groupButtons.groupButton3.buttonColor"
+                  "key": "buttonColor"
                 }
               ],
-              "key": "1ino30jsl3",
-              "orientation": "horizontal",
+              "text": "Submit",
+              "isDisabled": false,
+              "key": "cs22riermz",
               "isDeprecated": false,
-              "rightColumn": 37,
-              "widgetId": "fo3dizy2c2",
-              "minWidth": 450,
+              "rightColumn": 39,
+              "isDefaultClickDisabled": true,
+              "widgetId": "rc11z5fqq0",
+              "minWidth": 120,
               "isVisible": true,
+              "recaptchaType": "V3",
               "version": 1,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "mobileTopRow": 27,
-              "responsiveBehavior": "fill",
-              "childStylesheet": {
-                "button": {
-                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
-                }
-              },
+              "mobileTopRow": 32,
+              "responsiveBehavior": "hug",
+              "disabledWhenInvalid": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "mobileLeftColumn": 13,
-              "buttonVariant": "PRIMARY"
+              "mobileLeftColumn": 33,
+              "buttonVariant": "PRIMARY",
+              "placement": "CENTER"
             }
           ]
         },
